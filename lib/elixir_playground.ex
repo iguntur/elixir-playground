@@ -15,4 +15,12 @@ defmodule ElixirPlayground do
   def hello do
     :world
   end
+
+  def basic_handle() do
+    App.Main.handle
+  end
+
+  def user_handle() do
+    App.Main.handle(:user)
+  end
 end
